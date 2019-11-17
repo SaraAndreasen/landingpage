@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title1 {
+  color: black;
+  font-style: bold;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+}
+
+.title2 {
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+}
+
+.regnskov {
+  font-family: arial;
+  display: flex;
+    flex-wrap: wrap;
+      align-content: center;
+        text-align: left;
+          width: 500px;
+            float: left;
+              margin: 20px;
+                line-height: 25px;
+}
+
+.regnskovbillede {
+  display: flex;
+    align-items: center;
+}
+
+.vand {
+  font-family: arial;
+  display: flex;
+    flex-wrap: wrap;
+      align-content: center;
+        text-align: left;
+          width: 500px;
+            float: left;
+              margin: 20px;
+                line-height: 25px;
+
+}
+
+.olie {
+  font-family: arial;
+  display: flex;
+    flex-wrap: wrap;
+      align-content: center;
+        text-align: left;
+          width: 500px;
+            float: left;
+              margin: 20px;
+                line-height: 25px;
+}
