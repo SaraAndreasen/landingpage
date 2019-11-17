@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <div class="landingpage">
         <div class="header">
       <img src="polarbear.png" alt="logo">
     </div>
@@ -17,22 +16,36 @@
   <video src="videofile.ogg" autoplay poster="posterimage.jpg">
 
   </video>
+
+  <h2 class="title2">Read more about climate change</h2>
 </div>
-<div class="informationsbokse">
+<!--<div class="informationsbokse"> -->
   <div class="regnskov">
     <h5>The Rainforest</h5>
+    <img class="regnskovbillede"src="rainforest.jpg" alt="the rainforest">
+    <p>Viste du at før i tiden var jorden dækket af 14% regnskov og nu er den kun dækket af 6%? Der er blevet fældet hele 8% af verdens regnskove til brug af landbrug områder eller så der er plads til palmolie plantager.
+      <br>Regnskoven er vigtig for alle men alligevel passer ingen på den. Vi mennesker har brug for da træer beskytter klimaet ved at lave CO2 om til ilt.
+      <br><a href="#">"Læs mere"</a></p>
   </div>
-  <div class="vandstandstiger">
-    <h5>Water rising</h5>
+  <div class="vand">
+    <h5 class="to">Water rising</h5>
+    <img class="vandbillede" src="water.jpg" alt="Iceberg melting">
+    <p>Vandstanden vil stige over 1 Meter til 2100 hvis vi bliver ved ved at udlede CO2  som vi lige nu gør. De 20% af verdensbefolkningen der bor på små øer, i lavtliggende lande med lange kystlinjer eller tæt på smeltende gletsjer, vil blive oversvømmet.
+      <br>Yderligere 10 procent af verdens befolkning bor i områder, hvor der er direkte kontakt til is og sne, som smelter, når temperaturerne bliver ved med at stige.
+      <br><a href="#">"Læs mere"</a></p>
   </div>
-  <div class="olieihavet">
-    <h5>Oil in the sea</h5>
+  <div class="olie">
+    <h5 class="tre">Oil in the sea</h5>
+    <img class="oliebillede"src="oil.jpg" alt="taking oil from the underground">
+    <p>3 Kilder til olieforurening:
+<br>Naturlig udsivning, bare ud fra Californien siver der 20-25 ton olie ud af havbunden…
+<br>Biler og andre køretøjer, mange køretøjer har undslippende olie som fordamper og med regnen kan ende i havet…
+<br>Lystbåde, eller andre lystfartøjer kan ligesom biler undslippe olie, her ender det så direkte i havet…
+<br> <a href="#">"Læs mere"</a>
+</p>
   </div>
 
-</div>
-    </div>
+<!--</div>-->
+
   </body>
 </html>
-
-have a good day
-YOU TOO
