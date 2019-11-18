@@ -6,27 +6,32 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
+<div class="container">
+
         <div class="header">
-      <img src="polarbear.png" alt="logo">
-    </div>
-    <div class="title1">
-      <h1>Where will he live in 5 years?</h1>
+      <img src="isbjørn.png" alt="logo">
     </div>
 <div class="video">
-  <video src="videofile.ogg" autoplay poster="posterimage.jpg">
+        <video controls width="800">
 
-  </video>
+          <source src="fn.mp4"
+                  type="video/mp4">
 
-  <h2 class="title2">Read more about climate change</h2>
+          Sorry, your browser doesn't support embedded videos.
+      </video>
 </div>
-<!--<div class="informationsbokse"> -->
+<p class="beskrivelseafvideo">When the ice on the poles melts, where will all the polar bears live? When you throw your trash on the ground and don’t pick it up, you’re not just hurting the planet and all the animals on it.
+  <br>But you’re also hurting your future planet and its peoples future.</p>
+<h2 class="title2">Read more about climate change</h2>
+<div class="informationsbokse">
   <div class="regnskov">
-    <h5>The Rainforest</h5>
+    <h5 class="en">The Rainforest</h5>
     <img class="regnskovbillede"src="rainforest.jpg" alt="the rainforest">
     <p>Viste du at før i tiden var jorden dækket af 14% regnskov og nu er den kun dækket af 6%? Der er blevet fældet hele 8% af verdens regnskove til brug af landbrug områder eller så der er plads til palmolie plantager.
       <br>Regnskoven er vigtig for alle men alligevel passer ingen på den. Vi mennesker har brug for da træer beskytter klimaet ved at lave CO2 om til ilt.
       <br><a href="#">"Læs mere"</a></p>
   </div>
+
   <div class="vand">
     <h5 class="to">Water rising</h5>
     <img class="vandbillede" src="water.jpg" alt="Iceberg melting">
@@ -34,6 +39,7 @@
       <br>Yderligere 10 procent af verdens befolkning bor i områder, hvor der er direkte kontakt til is og sne, som smelter, når temperaturerne bliver ved med at stige.
       <br><a href="#">"Læs mere"</a></p>
   </div>
+
   <div class="olie">
     <h5 class="tre">Oil in the sea</h5>
     <img class="oliebillede"src="oil.jpg" alt="taking oil from the underground">
@@ -45,7 +51,7 @@
 </p>
   </div>
 
-<!--</div>-->
-
+</div>
+</div>
   </body>
 </html>
