@@ -1,6 +1,48 @@
 *{margin: 0;
 padding: 0;}
 
+.menu{
+  display: flex;
+  font-family: arial;
+  padding: 0.5%;
+  background-color: black;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding-top: 5%;
+  margin-right: 5%;
+}
+.menu nav a:hover{
+  color: blue;
+}
+.menu nav{
+  display: flex;
+  justify-content: space-between;
+  width: 25%}
+
+.menu knapper{
+    justify-content: center;
+    display: flex;
+  }
+  .knapper {
+    justify-content: space-around;
+    width: 200px;
+    display: flex;
+  }
+  .knapper a{
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+    display: block;
+    width: 60px;
+    text-align: center;
+  }
+
 body {
   background-color: #f8f8f8;
 }
