@@ -2,27 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Polarbears</title>
+    <title>Climate Change campaign | Animal Planet</title>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-  <section class="menu">
-      <div class="logo">
-        <img src="image\animal.PNG" alt="animalplanet" style="width:30%; height:90%" >
-      </div>
-      <nav>
+    <section class="menu">
+     <div class="logo">
+<a href="https://www.dplay.dk/kanaler/animal-planet">
+       <img src="animal.PNG" alt="animalplanet" style="width:30%; height:90%" >
+</a>
+     </div>
+     <nav>
 
-        <a href="#">Programs</a>
-        <a href="#">Channels</a>
-        <a href="#">Categories</a>
-        <a href="#">Sports</a>
-      </nav>
-      <div class="knapper">
-        <a href="#">sign up</a>
-      </div>
+       <a href="#">Programs</a>
+       <a href="#">Channels</a>
+       <a href="#">Categories</a>
+       <a href="#">Sports</a>
+     </nav>
+     <div class="knapper">
+       <a href="#">sign up</a>
+     </div>
 
-    </section>
-  
+   </section>
 <div class="container">
 
         <div class="header">
@@ -37,34 +38,34 @@
           Sorry, your browser doesn't support embedded videos.
       </video>
 </div>
-<p class="beskrivelseafvideo">When the ice on the poles melts, where will all the polar bears live? When you throw your trash on the ground and don’t pick it up, you’re not just hurting the planet and all the animals on it.
-  <br>But you’re also hurting your future planet and its peoples future.</p>
+<p class="beskrivelseafvideo">When the ice on the poles melts, where will all the polar bears live? When you throw your trash on the ground and don’t pick it up, you’re not just hurting the planet and all the animals on it; you’re also hurting your future planet and its peoples future.</p>
 <h2 class="title2">Read more about climate change</h2>
 <div class="informationsbokse">
   <div class="regnskov">
     <h5 class="en">The Rainforest</h5>
     <img class="regnskovbillede"src="rainforest.jpg" alt="the rainforest">
-    <p>Viste du at før i tiden var jorden dækket af 14% regnskov og nu er den kun dækket af 6%? Der er blevet fældet hele 8% af verdens regnskove til brug af landbrug områder eller så der er plads til palmolie plantager.
-      <br>Regnskoven er vigtig for alle men alligevel passer ingen på den. Vi mennesker har brug for da træer beskytter klimaet ved at lave CO2 om til ilt.
-      <br><a href="#">"Læs mere"</a></p>
+    <p>Did you know that in the past the land was covered by 14% rainforest and now it is only covered by 6%?
+      <br> 8% of the earth’s rainforests have been cut down for agricultural use and for palm oil plantations. The rainforest is important for everyone, yet no one cares for it. We humans need trees as it protects the climate by converting CO2 into oxygen.
+
+      <br><a href="regnskov.html">Read more</a></p>
   </div>
 
   <div class="vand">
     <h5 class="to">Water rising</h5>
     <img class="vandbillede" src="water.jpg" alt="Iceberg melting">
-    <p>Vandstanden vil stige over 1 Meter til 2100 hvis vi bliver ved ved at udlede CO2  som vi lige nu gør. De 20% af verdensbefolkningen der bor på små øer, i lavtliggende lande med lange kystlinjer eller tæt på smeltende gletsjer, vil blive oversvømmet.
-      <br>Yderligere 10 procent af verdens befolkning bor i områder, hvor der er direkte kontakt til is og sne, som smelter, når temperaturerne bliver ved med at stige.
-      <br><a href="#">"Læs mere"</a></p>
+    <p>The water level will rise above 1 meter by 2100 meter if we continue to emit CO2 as we do right now.  The 20% of the world's population that is living on small islands, in low-lying countries with long coastlines or close to melting glaciers, will be flooded. Another 10% of the world's population live in areas where there is direct contact with ice and snow, which melts as temperatures continue to rise.
+      <br><a href="#">Read more</a></p>
   </div>
 
   <div class="olie">
     <h5 class="tre">Oil in the sea</h5>
     <img class="oliebillede"src="oil.jpg" alt="taking oil from the underground">
-    <p>3 Kilder til olieforurening:
-<br>Naturlig udsivning, bare ud fra Californien siver der 20-25 ton olie ud af havbunden…
-<br>Biler og andre køretøjer, mange køretøjer har undslippende olie som fordamper og med regnen kan ende i havet…
-<br>Lystbåde, eller andre lystfartøjer kan ligesom biler undslippe olie, her ender det så direkte i havet…
-<br> <a href="#">"Læs mere"</a>
+    <p>3 Sources of Oil Pollution:
+<br>Natural leakage, just outside California, 20-25 tons of oil seeps out in the seaned ...
+<br>Cars and other vehicles, many vehicles have escaping oil which evaporates and with the rain can end in the sea…
+<br>Yachts, or other pleasure craft, like cars can escape oil, here it ends up directly in the sea…
+
+<br> <a href="#">Read more</a>
 </p>
   </div>
 
@@ -72,7 +73,7 @@
 </div>
 <footer>
   This page is a campaign that support the UN's Sustainable Development Goals number 13 and 14
-  <br>  
+  <br>
   <p class="fiction">This landingpage is a schoolproject and has nothing to do with Animal Planet or associates </p>
 </footer>
   </body>
