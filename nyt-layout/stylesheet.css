@@ -1,0 +1,247 @@
+*{margin: 0;
+padding: 0;}
+
+
+/*Navigation i toppen*/
+.menu{
+  display: flex;
+    font-family: arial;
+      padding: 0.5%;
+        background-color: black;
+          max-width: 73%;
+            margin:  0 13%;
+}
+
+.menu a{
+  text-decoration: none;
+    color: white;
+      padding-top: 5%;
+        margin-right: 5%;
+}
+
+.menu nav a:hover{
+  color: lightblue;
+}
+
+.menu nav{
+  display: flex;
+    justify-content: space-between;
+      max-width: 15%;
+    }
+
+.menu knapper{
+    justify-content: center;
+    display: flex;
+  }
+
+  .knapper {
+    justify-content: space-around;
+      max-width: 200px;
+        display: flex;
+  }
+
+  .knapper a{
+    text-decoration: none;
+      font-family: helvetica, sans-serif;
+        font-weight: 700;
+          padding: 15px 25px 15px 25px;
+            border-radius: 40px;
+              background-color: purple;
+                color: white;
+                  display: block;
+                    max-width: 60px;
+                      text-align: center;
+  }
+
+body {
+  background-color: #f8f8f8;
+}
+
+/*Selve landingpage contented*/
+.header {
+  display: flex;
+  justify-content: center;
+     background: #00bfae;
+     max-width: 100%;
+}
+
+/*.title1 {
+  color: black;
+    font-style: bold;
+      font-family: arial;
+        display: flex;
+          justify-content: center;
+}*/
+
+.title2 {
+  font-family: arial;
+  font-weight: 1000;
+    display: flex;
+      justify-content: space-around;
+        margin-top: 50px;
+        max-width: 100%;
+          }
+
+.video {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+    display: table;
+
+}
+
+video {
+  max-width: 63%;
+  align-items: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.imagelinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagelinks img {
+  width: 100%;
+  height: 100%;
+}
+.informationsbokse {
+     position: relative;
+       display: flex;
+         margin: 10px;
+           font-family: arial;
+
+}
+.infotext {
+    position: absolute;
+        top: 0;
+          left: 0;
+            display: flex;
+              justify-content: center;
+              align-items: center;
+               width: 100%;
+              height: 100%;
+                background: rgba(00, 00, 00, 0.4);
+                color: white;
+                  font-size: 80%;
+                    visibility: hidden;
+                      opacity: 0;
+                        transition: 0.5s;
+}
+
+.informationsbokse:hover .infotext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+#en {
+  background-color: pink;
+display: inline-block;
+
+  justify-content: center;
+}
+
+
+
+/*.en {
+  width: 100%;
+    text-align: center;
+      font-weight: 800;
+
+}
+.to {
+  width: 100%;
+    text-align: center;
+      font-weight: 800;
+}
+.tre {
+  width: 100%;
+    text-align: center;
+      font-weight: 800;
+}*/
+
+
+.container {
+  box-shadow: 0 0 5px grey;
+    width: 74%;
+      margin:  0 13%;
+        background: white;
+}
+
+.beskrivelseafvideo {
+font-family: arial;
+  align-items: center;
+    text-align: left;
+      margin: 1% auto;
+        display: table;
+          font-size: 110%;
+            max-width: 57%;
+}
+
+.infotext a{
+  color: white;
+}
+
+.infotext a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+
+/* regn skovsside*/
+
+.container1 {
+  box-shadow: 0 0 5px grey;
+    width: 74%;
+      margin:  0 13%;
+        background: white;
+          font-family: arial;
+}
+.tekst {
+  margin: 3%;
+  columns: 2;
+    line-height: 1.8;
+}
+
+.back {
+margin-left: 95%;
+margin-bottom: 5%;
+}
+
+.back a {
+  color: black;
+}
+
+.back a:hover {
+  color: lightblue;
+    text-decoration: none;
+}
+
+
+/*Footer på alle sider*/
+
+footer {
+  display: block;
+    font-family: arial;
+      position: relative;
+        margin: 0 auto;
+          max-width: 100%;
+            background-color: black;
+              color: white;
+                text-align: center;
+                  align-content: center;
+                    padding-top: 15px;
+                      padding-bottom: 15px;
+                        font-weight: bold;
+                            line-height: 25px;
+
+}
+
+.regnskovfooter{
+  margin-top: -42px;
+}
+
+.fiction {
+  font-size: 10px;
+}
