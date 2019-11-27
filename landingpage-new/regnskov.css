@@ -1,0 +1,27 @@
+*{margin: 0;
+padding: 0;}
+
+body {
+  background-color: #f8f8f8;
+}
+.header {
+  display: flex;
+  justify-content: center;
+     background: #00bfae;
+}
+.container {
+  box-shadow: 0 0 5px grey;
+  width: 70%;
+  margin:  0 15%;
+  background: white;
+  font-family: arial;
+}
+.tekst {
+  margin: 3%;
+  columns: 2;
+line-height: 1.8;
+}
+.back {
+margin-left: 95%;
+margin-bottom: 3%;
+}
